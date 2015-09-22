@@ -1,0 +1,22 @@
+body {
+  font-family: "Helvetica";
+  margin: 0 auto;
+  width: 960px;
+  background: #ccc;
+}
+
+article {
+  background: #fff;
+  border-top: 5px solid #424242;
+  padding: 2em;
+}
+
+h1 {
+  margin: 0 0 1em 0;
+  font-size: 2em;
+}
+
+h2 {
+  color: #929292;
+  font-weight: normal;
+}
