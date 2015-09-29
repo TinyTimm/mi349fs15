@@ -1,0 +1,18 @@
+body {
+  background: #ccc;
+}
+
+
+
+
+.container{
+  margin: 0 auto;
+  width: 700px;
+  background: #fff url('banner.jpg') no-repeat top center;
+  padding-top: 200px;
+}
+
+article {
+  padding: 20px;
+  background: #fff;
+}
