@@ -1,0 +1,57 @@
+body {
+  background: #ccc;
+  margin: 0;
+  font-family: Helvetica;
+}
+
+.container {
+  margin: 0 auto;
+  width: 700px;
+  padding-top: 150px;
+  background: #fff url(alton-brown-onion-dip.jpg) no-repeat top center;
+  border-top: 10px solid #424242;
+}
+
+.recipe {
+  padding: 20px 40px;
+  background: #fff;
+}
+
+/*
+Pseudo classes
+LoVHAte (:link, :visited, :hover, :active)
+:first-child
+:last-child
+:nth-child(an+b/even/odd/n)
+*/
+
+
+a:link, a:visited {
+  color: #424242;
+  text-decoration: none;
+
+}
+
+a:hover {
+  font-size: 1.3em;
+}
+
+ul li {
+  color:red;
+  display:list-item;
+  padding: 10px;
+  border: 2px solid #ddd;
+  width: 300px;
+}
+
+ol {
+  float: left;
+  width: 400px;
+}
+
+h2 {
+  clear: both;
+}
+
+/* Inline, Inline-Block and Block */
+/* Float example */
