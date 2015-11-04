@@ -35,7 +35,7 @@ header {
 /************************************************************************************
 MEDIA QUERIES
 *************************************************************************************/
-/* for 980px or less */
+/* for 1200px or less */
 @media screen and (max-width: 1200px) {
 
 	#pagewrap {
@@ -63,7 +63,7 @@ MEDIA QUERIES
 	border: solid 1px #ccc;
 }
 }
-   /* for 600 px and less */
+   /* for 800 px and less */
 @media screen and (max-width: 800px) {
 
 	#content {
@@ -85,7 +85,7 @@ MEDIA QUERIES
   	border: solid 1px #ccc;
   }
 
-  /* for 480px or less */
+  /* for 400px or less */
 @media screen and (max-width: 400px) {
 
 
