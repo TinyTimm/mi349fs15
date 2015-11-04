@@ -1,0 +1,125 @@
+#pagewrap {
+	padding: 5px;
+	width: 960px;
+	margin: 20px auto;
+}
+
+#pagewrap, header, #content, #middle, #sidebar, footer {
+	border: solid 1px #ccc;
+}
+
+header {
+  height: 100px;
+  padding: 15px;
+}
+
+#content {
+  width: 290px;
+  float: left;
+  padding: 5px 15px;
+}
+
+#middle {
+  width: 294px;
+  float: left;
+  padding: 5px 15px;
+  margin: 0px 5px 5px 5px;
+}
+
+#sidebar {
+  width: 270px;
+  padding: 5px 15px;
+  float: left;
+}
+
+/************************************************************************************
+MEDIA QUERIES
+*************************************************************************************/
+/* for 980px or less */
+@media screen and (max-width: 1200px) {
+
+	#pagewrap {
+		width: 94%;
+	}
+	#content {
+		width: 41%;
+		padding: 1% 4%;
+	}
+	#middle {
+		width: 41%;
+		padding: 1% 4%;
+		margin: 0px 0px 5px 5px;
+		float: right;
+	}
+  #sidebar {
+  clear: both;
+  padding: 1% 4%;
+  width: auto;
+  float: none;
+
+}
+
+#pagewrap, header, #content, #middle, #sidebar, footer {
+	border: solid 1px #ccc;
+}
+}
+   /* for 600 px and less */
+@media screen and (max-width: 800px) {
+
+	#content {
+		width: auto;
+		float: none;
+	}
+
+	#middle {
+		width: auto;
+		float: none;
+		margin-left: 0px;
+	}
+
+	#sidebar {
+		width: auto;
+		float: none;
+	}
+  #pagewrap, header, #content, #middle, #sidebar, footer {
+  	border: solid 1px #ccc;
+  }
+
+  /* for 480px or less */
+@media screen and (max-width: 400px) {
+
+
+
+
+
+
+
+#middle {
+  width: auto;
+  float: none;
+}
+
+#content {
+  width: auto;
+  float: none;
+
+}
+#sidebar {
+  width: auto;
+  float: none;
+
+}
+header, #content, #middle, #sidebar {
+	margin-bottom: 5px;
+}
+
+#pagewrap, header, #content, #middle, #sidebar, footer {
+	border: solid 1px #ccc;
+}
+
+
+
+h1 {
+  margin: 0 0 1em 0;
+  font-size: 2em;
+}
