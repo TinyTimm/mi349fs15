@@ -1,0 +1,107 @@
+body {
+  background: #ccc;
+  margin: 0;
+  font-family: Helvetica;
+}
+
+#pagewrap {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1400px;
+
+}
+
+
+
+header {
+height: 200px;
+width: 100%;
+background: #fff url(forest.jpg) no-repeat top center;
+background-size: 1400px;
+position: fixed;
+box-shadow: 0px 0px 30px black;
+}
+.portfolio {
+  padding: 200px 40px;
+  background: #fff;
+  text-align: center;
+}
+
+/*
+Pseudo classes
+LoVHAte (:link, :visited, :hover, :active)
+:first-child
+:last-child
+:nth-child(an+b/even/odd/n)
+*/
+
+
+.nav ul {
+  height: 70px;
+
+
+
+}
+
+.nav li {
+
+  margin-left: -40px;
+  background-color: rgba(54, 25, 25, .49);
+  display: block;
+  padding: 40px;
+  width: 200px;
+
+
+}
+
+.nav a {
+
+}
+
+a:link, a:visited {
+  color: white;
+  display: inline;
+     width: 300px;
+     font-weight: bold;
+     color: #FFFFFF;
+
+     text-align: center;
+     padding: 40px;
+     text-decoration: none;
+     text-transform: uppercase;
+ }
+
+ a:hover, a:active {
+     color: red;
+     transition: .7s;
+}
+
+a:hover {
+  font-size: ;
+}
+
+
+
+
+.portfolio img {
+  max-width: 900px;
+  max-height: 700px;
+
+}
+/* Inline, Inline-Block and Block */
+/* Float example */
+
+/*////////////////////////////////////*/
+@media screen and (max-width: 900px) {
+.portfolio img {
+  max-width: 100%;
+  height:
+}
+.nav li {
+  padding: 25px;
+}
+
+@media screen and (max-width: 600px) {
+  .nav li {
+    padding: 14px;
+}

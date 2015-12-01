@@ -6,15 +6,28 @@ body {
 
 .container {
   margin: 0 auto;
-  width: 1000px;
-  padding-top: 150px;
-  background: #fff url(alton-brown-onion-dip.jpg) no-repeat top center;
+  width: 100%;
+  max-width: 1400px;
+
+
   border-top: 10px solid #424242;
 }
 
+.p1 {
+  width: 100%;
+  max-width: 700px;
+}
+
+header {
+height: 350px;
+width: 100%;
+background: #fff url(forest.jpg) no-repeat top center;
+background-size: 1300px;
+}
 .recipe {
   padding: 20px 40px;
   background: #fff;
+  align-items: center;
 }
 
 /*
@@ -41,12 +54,14 @@ ul li {
   display:list-item;
   padding: 10px;
   border: 2px solid #ddd;
-  width: 300px;
+  width: 100%;
+  max-width: 300px;
 }
 
 ol {
   float: left;
-  width: 400px;
+  width: 100%;
+  max-width: 400px;
 }
 
 h2 {
@@ -55,3 +70,14 @@ h2 {
 
 /* Inline, Inline-Block and Block */
 /* Float example */
+
+/*////////////////////////////////////*/
+@media screen and (max-width: 400px) {
+
+}
+
+@media screen and (max-width: 800px) {
+  header {
+
+  }
+}

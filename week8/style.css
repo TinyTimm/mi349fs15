@@ -1,22 +1,33 @@
+html {
+	background-color:#c0abfb;
+}
+
+
+
+
 #pagewrap {
 	padding: 5px;
 	width: 960px;
 	margin: 20px auto;
+
+
 }
 
 #pagewrap, header, #content, #middle, #sidebar, footer {
-	border: solid 1px #ccc;
+	border: solid 0px #ccc;
 }
 
 header {
   height: 100px;
   padding: 15px;
+
 }
 
 #content {
   width: 290px;
   float: left;
   padding: 5px 15px;
+
 }
 
 #middle {
@@ -87,6 +98,7 @@ MEDIA QUERIES
 
   /* for 400px or less */
 @media screen and (max-width: 400px) {
+
 
 
 
