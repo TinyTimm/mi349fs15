@@ -1,13 +1,21 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+
 html {
-	background-color:#c0abfb;
+	background-color: white;
 }
 
 
 
+h2 {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 200;
+	color: white;
+}
+
 
 #pagewrap {
 	padding: 5px;
-	width: 960px;
+	width: 1400px;
 	margin: 20px auto;
 
 
@@ -18,120 +26,97 @@ html {
 }
 
 header {
-  height: 100px;
-  padding: 15px;
+	margin-top: -70px;
+	background: #fff url(header.jpg) no-repeat top center;
+  width: 1400px;
+	height: 933px;
+  margin-left: -13px;
 
 }
 
 #content {
-  width: 290px;
+  width:290px;
   float: left;
-  padding: 5px 15px;
+  padding: 5px 5px;
+	margin-left: -13px;
+	font-family: "Quicksand";
+	background-color: rgba(98, 101, 157, .42);
 
 }
 
 #middle {
-  width: 294px;
+  width: 200px;
   float: left;
-  padding: 5px 15px;
-  margin: 0px 5px 5px 5px;
+  padding: 5px 40px;
+  margin-top: -25px;
 }
 
 #sidebar {
   width: 270px;
-  padding: 5px 15px;
-  float: left;
+  padding: 20px 200px;
+	margin-left: 400px;
+	font-family: "Quicksand";
+
+}
+
+a:link, a:visited {
+  color: white;
+  display: inline;
+     width: 300px;
+     font-weight: bold;
+     color: #FFFFFF;
+
+     text-align: center;
+     padding: 40px;
+     text-decoration: none;
+     text-transform: uppercase;
+ }
+
+ a:hover, a:active {
+     color: #ef444e;
+     transition: 1.7s;
+
+
+
+}
+
+.nav ul {
+	float: left;
+  height: 300px;
+  margin-top: 250px;
+	width: 900px;
+	text-decoration: none;
+	margin-left: -40px;
+
+
+}
+
+.nav li {
+
+  margin-left: ;
+  background-color: rgba(84, 146, 93, .42);
+  display: inline;
+  padding: 150px;
+  width: 900px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-decoration: none;
 }
 
 /************************************************************************************
 MEDIA QUERIES
 *************************************************************************************/
 /* for 1200px or less */
-@media screen and (max-width: 1200px) {
-
-	#pagewrap {
-		width: 94%;
-	}
-	#content {
-		width: 41%;
-		padding: 1% 4%;
-	}
-	#middle {
-		width: 41%;
-		padding: 1% 4%;
-		margin: 0px 0px 5px 5px;
-		float: right;
-	}
-  #sidebar {
-  clear: both;
-  padding: 1% 4%;
-  width: auto;
-  float: none;
-
-}
-
-#pagewrap, header, #content, #middle, #sidebar, footer {
-	border: solid 1px #ccc;
-}
-}
-   /* for 800 px and less */
-@media screen and (max-width: 800px) {
-
-	#content {
-		width: auto;
-		float: none;
-	}
-
-	#middle {
-		width: auto;
-		float: none;
-		margin-left: 0px;
-	}
-
-	#sidebar {
-		width: auto;
-		float: none;
-	}
-  #pagewrap, header, #content, #middle, #sidebar, footer {
-  	border: solid 1px #ccc;
-  }
-
-  /* for 400px or less */
-@media screen and (max-width: 400px) {
-
-
-
-
-
-
-
-
-#middle {
-  width: auto;
-  float: none;
-}
-
-#content {
-  width: auto;
-  float: none;
-
-}
-#sidebar {
-  width: auto;
-  float: none;
-
-}
-header, #content, #middle, #sidebar {
-	margin-bottom: 5px;
-}
-
-#pagewrap, header, #content, #middle, #sidebar, footer {
-	border: solid 1px #ccc;
-}
 
 
 
 h1 {
   margin: 0 0 1em 0;
   font-size: 2em;
+font-family: 'Quicksand', sans-serif;
+}
+
+
+h3 {
+	font-family: 'Quicksand', sans-serif;
 }

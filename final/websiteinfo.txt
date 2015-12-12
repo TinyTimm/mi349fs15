@@ -1,0 +1,6 @@
+URL:
+
+timandrewsart.com
+
+explanation for design changes: At first I had a very symmetrical design with a horizontal nav bar but I
+eventually decided that having an asymmetrical design with a horizontal nav bar looked more visually interesting

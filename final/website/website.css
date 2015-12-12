@@ -1,0 +1,244 @@
+body {
+  background: white;
+  margin: 0;
+  font-family: Helvetica;
+}
+h1 {
+  font-family: "Helvetica";
+  font-weight: 700;
+  margin-bottom: -10px;
+  font-size: 2.25em;
+
+
+}
+h2 {
+  font-family: "Quicksand";
+  font-weight: 100;
+  margin-bottom: -10px;
+  font-size: 2em;
+}
+
+
+
+.thumbnail.active {
+    width: 675px;
+    position: relative;
+    z-index:500;
+}
+
+.thumbnail.z.active {
+    width: 777px;
+    position: relative;
+    z-index:500;
+}
+
+.thumbnail.y.active {
+  width: 900px;
+  position: relative;
+  z-index: 500;
+}
+
+
+.thumbnail.x.active {
+  width: 1200px;
+  position: relative;
+  z-index:500;
+}
+
+
+
+
+
+#pagewrap {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1400px;
+
+}
+
+.about li {
+  color: white;
+  background-color: rgba(3, 23, 109, .42);
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  list-style-type: none;
+
+
+
+}
+
+.about ul {
+
+    color: black;
+
+
+
+}
+
+.about a:link, a:visited {
+  color: white;
+  display: inline;
+     width: 500px;
+     font-weight: 100;
+
+
+     text-align: center;
+     padding: 20px;
+     text-decoration: none;
+     text-transform: none;
+ }
+
+
+
+
+.about {
+
+  color: red;
+  list-style:armenian;
+  text-decoration: none;
+  margin-top: 250px;
+  margin-left: 300px;
+  float: left;
+}
+
+
+.aboutheader {
+  height: 200px;
+  width: 100%;
+  background: #fff url(mountain.jpg) no-repeat top center;
+  background-size: 1400px;
+  position: fixed;
+  box-shadow: 0px 0px 70px black;
+}
+
+.homeheader {
+  height: 100%;
+  width: 100%;
+  background: #fff url(pine.jpg) no-repeat top center;
+  background-size: 1400px;
+  position: fixed;
+  box-shadow: 0px 0px 70px black;
+}
+
+header {
+height: 200px;
+width: 100%;
+background: #fff url(forest.jpg) no-repeat top center;
+background-size: 1400px;
+position: fixed;
+box-shadow: 0px 0px 70px black;
+}
+.portfolio {
+  padding: 300px 40px 200px 40px;
+  background: #fff;
+  text-align: center;
+}
+.picture {
+  margin-top: 200px;
+
+}
+/*
+Pseudo classes
+LoVHAte (:link, :visited, :hover, :active)
+:first-child
+:last-child
+:nth-child(an+b/even/odd/n)
+*/
+
+
+.nav ul {
+  height: 70px;
+  margin-top: -10px;
+
+
+
+}
+
+.nav li {
+
+  font-weight: 1000;
+  margin-left: -40px;
+  background-color: rgba(3, 23, 109, .42);
+  display: block;
+  padding: 40px;
+  width: 200px;
+
+
+}
+
+.nav a {
+
+}
+
+a:link, a:visited {
+  color: white;
+  display: inline;
+     width: 300px;
+     font-weight: bold;
+     color: #FFFFFF;
+
+     text-align: center;
+     padding: 40px;
+     text-decoration: none;
+     text-transform: uppercase;
+ }
+
+ a:hover, a:active {
+     color: #ffcc66;
+     transition: .7s;
+}
+
+a:hover {
+  font-size: ;
+}
+
+
+.blurb {
+  display: none;
+  z-index: 500;
+  position: relative;
+
+}
+
+.portfolio img {
+  max-width: 1400px;
+  max-height: 900px;
+  transition: all 0.5s;
+  margin: 0 auto;
+
+}
+
+.cover {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  display: none;
+  background: rgba(255, 255, 255, 0.8);
+}
+/* Inline, Inline-Block and Block */
+/* Float example */
+
+/*////////////////////////////////////*/
+@media screen and (max-width: 900px) {
+.portfolio img {
+  max-width: 100%;
+  height:
+}
+.nav li {
+  padding: 25px;
+}
+.about {
+  margin-left: 100px;
+}
+
+@media screen and (max-width: 600px) {
+  .nav li {
+    padding: 17.25px;
+}
+.about {
+  margin-left: 15px;
+}

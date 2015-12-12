@@ -4,6 +4,27 @@ body {
   font-family: Helvetica;
 }
 
+
+
+
+
+.thumbnail.active {
+    width: 700px;
+    position: relative;
+    z-index:500;
+}
+
+
+.thumbnail.x.active {
+  width: 1200px;
+  position: relative;
+  z-index:500;
+}
+
+
+
+
+
 #pagewrap {
   margin: 0 auto;
   width: 100%;
@@ -16,17 +37,20 @@ body {
 header {
 height: 200px;
 width: 100%;
-background: #fff url(forest.jpg) no-repeat top center;
+background: #fff url(mountain.jpg) no-repeat top center;
 background-size: 1400px;
 position: fixed;
-box-shadow: 0px 0px 30px black;
+box-shadow: 0px 0px 70px black;
 }
 .portfolio {
-  padding: 200px 40px;
+  padding: 300px 40px 200px 40px;
   background: #fff;
   text-align: center;
 }
+.picture {
+  margin-top: 200px;
 
+}
 /*
 Pseudo classes
 LoVHAte (:link, :visited, :hover, :active)
@@ -38,6 +62,7 @@ LoVHAte (:link, :visited, :hover, :active)
 
 .nav ul {
   height: 70px;
+  margin-top: -10px;
 
 
 
@@ -45,8 +70,9 @@ LoVHAte (:link, :visited, :hover, :active)
 
 .nav li {
 
+
   margin-left: -40px;
-  background-color: rgba(54, 25, 25, .49);
+  background-color: rgba(3, 23, 109, .42);
   display: block;
   padding: 40px;
   width: 200px;
@@ -72,7 +98,7 @@ a:link, a:visited {
  }
 
  a:hover, a:active {
-     color: red;
+     color: orange;
      transition: .7s;
 }
 
@@ -81,12 +107,29 @@ a:hover {
 }
 
 
+.blurb {
+  display: none;
+  z-index: 500;
+  position: relative;
 
+}
 
 .portfolio img {
-  max-width: 900px;
-  max-height: 700px;
+  max-width: 1400px;
+  max-height: 900px;
+  transition: all 0.5s;
+  margin: 0 auto;
 
+}
+
+.cover {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  display: none;
+  background: rgba(255, 255, 255, 0.8);
 }
 /* Inline, Inline-Block and Block */
 /* Float example */
@@ -103,5 +146,5 @@ a:hover {
 
 @media screen and (max-width: 600px) {
   .nav li {
-    padding: 14px;
+    padding: 17.25px;
 }
